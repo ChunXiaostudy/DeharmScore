@@ -26,7 +26,7 @@ Categories:
 ## 2. Dangerous Question Generation
 
 **Entry point**: `run_pipeline.py`  
-**Model**: `gpt-4o`  
+**Model**: `gpt-5`  
 **Output**: `output/hazardous_science_dataset.jsonl` (29,319 questions)
 
 Two generation tracks:
@@ -114,7 +114,7 @@ Proportionally distributed across 12 subjects (~500 each).
 # 1. Extract hazardous substances
 python extract_hazardous_substances.py
 
-# 2. Generate dangerous questions (~30k, gpt-4o)
+# 2. Generate dangerous questions (~30k, gpt-5)
 python run_pipeline.py
 
 # 3. Harmfulness evaluation (gpt-5)
