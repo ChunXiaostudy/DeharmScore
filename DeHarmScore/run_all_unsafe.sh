@@ -6,10 +6,10 @@ eval "$(conda shell.bash hook)"
 conda activate autodanturbo
 proxy_on
 
-BASE_DIR="/home/lichunxiao/storage-link/Deep-research-Data-Pipeline/DeHarm-Metric-final/final_output/unsafe/by_model"
-PROGRESS_FILE="/home/lichunxiao/storage-link/Deep-research-Data-Pipeline/DeHarm-Metric-final/eval_progress.log"
-PREVIEW_FILE="/home/lichunxiao/storage-link/Deep-research-Data-Pipeline/DeHarm-Metric-final/vllm_judge_preview.jsonl"
-MATCHER_RAW_PREVIEW_FILE="/home/lichunxiao/storage-link/Deep-research-Data-Pipeline/DeHarm-Metric-final/vllm_matcher_raw_preview.jsonl"
+BASE_DIR="final_output/unsafe/by_model"
+PROGRESS_FILE="eval_progress.log"
+PREVIEW_FILE="vllm_judge_preview.jsonl"
+MATCHER_RAW_PREVIEW_FILE="vllm_matcher_raw_preview.jsonl"
 export MATCHER_RAW_PREVIEW_FILE
 export MATCHER_RAW_PREVIEW_LIMIT=3
 
